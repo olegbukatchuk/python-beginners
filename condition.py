@@ -9,4 +9,4 @@ print('Variable b Is :', 'Even' if (b % 2 == 0) else 'Odd')
 
 max = a if (a > b) else b
 
-print('\nGreater Value Is:', max)
+print('\nGreater Value Is :', max)
