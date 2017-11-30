@@ -11,5 +11,6 @@ label3 = Label(window, relief='groove', width=2)
 label4 = Label(window, relief='groove', width=2)
 label5 = Label(window, relief='groove', width=2)
 label6 = Label(window, relief='groove', width=2)
-getBtn = Button(window )
-resBtn = Button( window )
+
+getBtn = Button(window)
+resBtn = Button( window)
