@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 
-img = PhotoImage(file='lotto.gif')
+img = PhotoImage(file='python.gif')
 
 imgLbl = Label(window, image=img)
 label1 = Label(window, relief='groove', width=2)
@@ -26,3 +26,4 @@ label6.grid()
 getBtn.grid()
 resBtn.grid()
 
+window.mainloop()
