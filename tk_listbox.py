@@ -17,4 +17,8 @@ def dialog():
 
 btn = Button(frame, text='Choose', command=dialog)
 
+btn.pack(side=RIGHT, padx=5)
+listbox.pack(side=LEFT)
+frame.pack(padx=30, pady=30)
 
+window.mainloop()
