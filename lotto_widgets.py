@@ -13,4 +13,4 @@ label5 = Label(window, relief='groove', width=2)
 label6 = Label(window, relief='groove', width=2)
 
 getBtn = Button(window)
-resBtn = Button( window)
+resBtn = Button(window)
