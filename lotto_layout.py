@@ -8,4 +8,4 @@ label5.grid(row=1, column=6, padx=10)
 label6.grid(row=1, column=7, padx=(10, 20))
 
 getBtn.grid(row=2, column=2, columnspan=4)
-getBtn.grid( row = 2, column = 6, columnspan = 2 )
+getBtn.grid(row = 2, column = 6, columnspan = 2 )
