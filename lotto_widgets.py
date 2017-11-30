@@ -17,4 +17,5 @@ resBtn = Button(window)
 
 imgLbl.grid()
 label1.grid()
-label2.grid() label3.grid() label4.grid() label5.grid() label6.grid() getBtn.grid() resBtn.grid()
+label2.grid()
+label3.grid() label4.grid() label5.grid() label6.grid() getBtn.grid() resBtn.grid()
