@@ -20,3 +20,23 @@ def dialog():
 
     if var_1.get() == 1:
         str += '\nHTML5 in easy steps'
+
+    if var_2.get() == 1:
+        str += '\nCSS3 in easy steps'
+
+    if var_3.get() == 1:
+        str += '\nJS in easy steps'
+
+    box.showinfo('Selection', str)
+
+btn = Button(frame, text='Choose', command=dialog)
+
+btn.pack(side=RIGHT, padx=5)
+
+book_1.pack(side=LEFT)
+book_2.pack(side=LEFT)
+book_3.pack(side=LEFT)
+
+frame.pack(padx=30, pady=30)
+
+window.mainloop()
